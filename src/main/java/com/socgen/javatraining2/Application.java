@@ -8,9 +8,11 @@ public class Application {
 	static final Logger logger = LoggerFactory.getLogger(Application.class);
 	
 	public static void main(String args[]) {
+		Baby is Back!
+		logger.trace("Hello Trace!!");
 		logger.debug("Hello Debug!!");
-		logger.warn("Hello WarningDebug!!");
-		logger.error("Hello Error!!");
 		logger.info("Hello Info!!");
+		logger.warn("Hello Warning!!");
+		logger.error("Hello Error!!");
 	}
 }
