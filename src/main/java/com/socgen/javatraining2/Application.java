@@ -8,7 +8,7 @@ public class Application {
 	static final Logger logger = LoggerFactory.getLogger(Application.class);
 	
 	public static void main(String args[]) {
-		Baby is Back!
+		System.out.println("Baby is Back!");
 		logger.trace("Hello Trace!!");
 		logger.debug("Hello Debug!!");
 		logger.info("Hello Info!!");
